@@ -15,3 +15,19 @@
 */
 
 // Begin writing your code below
+
+let hero = "Lyn";
+
+let numberOfCoins = "250";
+
+let isTheProtagonistStillAlive = false;
+
+let locationOfPoeLantern = undefined;
+
+let deepwoodVillage = null;
+
+console.log("Hero:",hero);
+console.log("Coins:",numberOfCoins);
+console.log("Did Lyn survive the destruction of Kanalet Castle 200 year ago?",isTheProtagonistStillAlive);
+console.log("Where's the Poe Lantern?",locationOfPoeLantern);
+console.log("What's left of Deepwood Village?",deepwoodVillage);
