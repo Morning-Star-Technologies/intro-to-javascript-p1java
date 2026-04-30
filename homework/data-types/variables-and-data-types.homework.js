@@ -15,3 +15,19 @@
 */
 
 // Begin writing your code below
+
+let manager = "Micheal Scott";
+
+console.log("manager is",manager)
+
+const setting = ("Dunder Mifflin, Scranton")
+
+const State = Pennsylvania
+
+let StamfordBranch = null
+
+let daytime = false
+
+let time = 13.00
+
+let HR = undefined
