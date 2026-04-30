@@ -16,18 +16,18 @@
 
 // Begin writing your code below
 
-let hero = "Lyn";
+let manager = "Micheal Scott";
 
-let numberOfCoins = "250";
+console.log("manager is",manager)
 
-let isTheProtagonistStillAlive = false;
+const setting = ("Dunder Mifflin, Scranton")
 
-let locationOfPoeLantern = undefined;
+const State = Pennsylvania
 
-let deepwoodVillage = null;
+let StamfordBranch = null
 
-console.log("Hero:",hero);
-console.log("Coins:",numberOfCoins);
-console.log("Did Lyn survive the destruction of Kanalet Castle 200 year ago?",isTheProtagonistStillAlive);
-console.log("Where's the Poe Lantern?",locationOfPoeLantern);
-console.log("What's left of Deepwood Village?",deepwoodVillage);
+let daytime = false
+
+let time = 13.00
+
+let HR = undefined
