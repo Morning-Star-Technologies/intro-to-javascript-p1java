@@ -18,3 +18,13 @@
 */
 
 // Begin writing your code below
+
+let healthElixirs = 27;
+let poisonElixirs = 13;
+let result = healthElixirs === poisonElixirs;
+console.log("Do you have the same number of health elixirs as you do poison elixirs?", result,);
+
+let obtainedSilverBroadsword = false;
+let obtainedWoodenSword = true;
+let hasThePlayerobtainedBothSwords = obtainedSilverBroadsword && obtainedWoodenSword;
+console.log("Did you find both swords?", hasThePlayerobtainedBothSwords,);
