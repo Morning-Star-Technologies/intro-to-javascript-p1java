@@ -84,7 +84,58 @@ async function playGame() {
     const secretNumber = Math.floor(Math.random() * 100) + 1;
     const numberOfAttempts = await askForNumber('Welcome to the guessing game! How many attempts would you like to have? ');
 
-    // ALL YOUR CODE GOES HERE
+    console.log('')
+    console.log('--------------------------------------------')
+    console.log('You have ', numberOfAttempts,' attempts.')
+
+    console.log('--------------------------------------------')
+    console.log('')
+    console.log('')
+    console.log('--------------------------------------------')
+    
+    let reply = await askForNumber('Guess a number ')
+    
+    
+
+     let i = 0
+     i++
+    
+
+    console.log('----------------------------------')
+    console.log('')
+    while(i < numberOfAttempts){
+      if(reply > secretNumber){
+
+        console.log('')
+        console.log('----------------------------------')
+        reply = await askForNumber('The secret number is lower ')
+        console.log('----------------------------------')
+        console.log('')
+      }
+      if(reply < secretNumber){
+        console.log('')
+        console.log('----------------------------------')
+        reply = await askForNumber('The secret number is higher ')
+        console.log('----------------------------------')
+        console.log('')
+      }
+      
+      i++
+    }
+    if((i = (numberOfAttempts - 1)) && (reply !== secretNumber)){
+      console.log('')
+      console.log('----------------------------------')
+      console.log('You lose, the secret number was', secretNumber)
+      console.log('----------------------------------')
+      console.log('')
+    }
+    if(reply === secretNumber){
+        console.log('')
+        console.log('----------------------------------')
+        console.log("You win, the secret number was ", secretNumber)
+        console.log('----------------------------------')
+        console.log('')
+      }
 
   // Don't touch this line - it ends the game appropriately
   closeInput();
